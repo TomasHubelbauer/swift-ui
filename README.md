@@ -2,6 +2,10 @@
 
 An experiment in building a modal UI in Swift code, because storyboards suck.
 
+Note that this repository has nothing to do with the new
+Swift UI framework Apple released recently.
+It's just something I named it.
+
 ## Research
 
 https://medium.com/better-programming/creating-ui-programmatically-in-swift-c919463c3cd0
