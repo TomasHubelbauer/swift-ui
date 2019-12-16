@@ -19,3 +19,11 @@ https://medium.com/better-programming/creating-ui-programmatically-in-swift-c919
 https://fluffy.es/intro-to-creating-ui-in-code-1
 
 https://fluffy.es/intro-to-creating-ui-in-code-2
+
+## Debugging
+
+Use the Debug View Hierarchy debugger button to inspect the view
+hierarchy at runtime.
+Check for purple box exclamation point icon next to an element in
+the hierarchy view to spot lacking constraints and other layout
+issues.
