@@ -27,3 +27,9 @@ hierarchy at runtime.
 Check for purple box exclamation point icon next to an element in
 the hierarchy view to spot lacking constraints and other layout
 issues.
+
+## To-Do
+
+### Create a GitHub Action workflow for capturing a screencast
+
+https://medium.com/xcblog/simctl-control-ios-simulators-from-command-line-78b9006a20dc
