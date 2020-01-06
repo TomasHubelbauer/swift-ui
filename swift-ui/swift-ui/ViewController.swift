@@ -43,6 +43,19 @@ class ViewController: UIViewController {
         
         var scroll = CGFloat(16) // Space
         
+        let coverImageView = UIImageView()
+        coverImageView.image = UIImage(named: "landscape")
+        coverImageView.translatesAutoresizingMaskIntoConstraints = false
+        contentView.addSubview(coverImageView)
+        
+        constraints.append(coverImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: scroll))
+        constraints.append(coverImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16))
+        constraints.append(coverImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16))
+        constraints.append(coverImageView.bottomAnchor.constraint(equalTo: contentView.topAnchor, constant: scroll + 120))
+        
+        scroll += 120 // Size
+        scroll += 16 // Space
+        
         let titleLabel = UILabel()
         titleLabel.text = "How are you today?"
         titleLabel.font = UIFont.boldSystemFont(ofSize: 20)
