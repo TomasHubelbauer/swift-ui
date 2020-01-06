@@ -37,6 +37,13 @@ issues.
 
 ## To-Do
 
+### Progress according to the current plan
+
+- [ ] Remove top space above the cover image
+- [ ] Calculate the height based on view width to preserve aspect ratio
+- [ ] Add a transparent button to make the X clickable
+- [ ] Dismiss the modla on clicking the X button
+
 ### Create a GitHub Action workflow for capturing a screencast
 
 https://medium.com/xcblog/simctl-control-ios-simulators-from-command-line-78b9006a20dc
