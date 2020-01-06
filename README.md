@@ -2,9 +2,8 @@
 
 An experiment in building a modal UI in Swift code, because storyboards suck.
 
-Note that this repository has nothing to do with the new
-Swift UI framework Apple released recently.
-It's just something I named it.
+Note that this repository has nothing to do with the new Swift UI framework Apple
+released recently. It's just something I named it.
 
 ## Research
 
@@ -19,6 +18,12 @@ https://medium.com/better-programming/creating-ui-programmatically-in-swift-c919
 https://fluffy.es/intro-to-creating-ui-in-code-1
 
 https://fluffy.es/intro-to-creating-ui-in-code-2
+
+### Images
+
+Find `Assets.xcassets` and add a new image set. Drag your image to 1x, 2x, 3x cells.
+Rename the image set to your liking. Create `UIImageView` and set its `image` prop to
+`UIImage(named: "foobar")`.
 
 ## Debugging
 
